@@ -1,0 +1,299 @@
+
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+    background: rgb(246, 239, 255);
+}
+.contenedor{
+    max-width: 120rem; /**1200 px**/
+    margin: 0 auto;
+}
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 3.4rem;
+}
+h4{
+    font-size: 3rem;
+}
+h4{
+    font-size: 2.6rem;
+}
+/*cabezera index*/
+.site-header.inicio{
+    background: url(../imagenes/Logotipo.jpg);
+    height: 80vh;
+    min-height: 5rem;
+    background-position: center center;
+    background-size: cover;
+}
+    
+.site-header{
+    background: url(../imagenes/Logotipo.jpg);
+    height: 70vh;
+    min-height: 5rem;
+    background-position: center center;
+    background-size: cover;
+}
+.contenido-header{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.contenido-header h1{
+    color: #ffffff;
+    padding-bottom: 1rem;
+    max-width: 70rem;
+    line-height: 0.5;
+}
+.contenido-header .parrafo{
+    color: #ffffff;
+    padding-bottom: 1rem;
+    max-width: 100%;
+    line-height: 1;
+    font-size: 1.9rem;
+    font-weight: -2px;
+
+}
+.texto{
+    /*h1 y p*/
+    text-align: center;
+    justify-content: center center;
+    margin: 0 auto;
+    margin-bottom: 20rem;
+    
+}
+.barra{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3rem;/**30 px**/
+    align-items: center;
+}
+/*enlaces*/
+.navegacion a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.8rem;
+    margin-right: 2rem;
+}
+.navegacion a:last-of-type{
+margin: 0px;
+}
+.navegacion a:hover{
+    color: #00ffff;
+}
+/*logotipo*/
+.logo{
+    height: 5rem;
+    width: 24.5rem;
+}
+/*ajustr posicion logo*/
+.intro{
+    padding-left: 5rem;
+    margin-top: -1rem;
+}
+/*parte de talleres y cursos*/
+.fw-300{
+    font-weight: 500;
+}
+.taller{
+    max-width: 39rem;
+}
+.texto2 p{
+    margin-top: -0.2rem;
+}
+.texto2 a{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.texto2 h4{
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 4rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.centrar-texto{
+    text-align: center;
+}
+.seccion{
+    display: flex;
+    justify-content: space-between;
+}
+/*blog*/
+.img{
+    height: 39rem;
+    width:52.5rem ;
+}
+
+.entrada-blog{
+    max-width: 52.5rem;
+    margin-left: 16rem;
+}
+.entrada-blog p{
+    margin-top: -1rem;
+    text-align: justify;
+    line-height: 2.9rem;
+}
+.entrada-blog h4{
+    margin-top: 2rem;
+}
+.seccion.entrada-blog{
+    flex-basis: 60%;
+}
+/*botones*/
+.d-block{
+    display: block;
+    width: 14.5rem;
+    height: 2rem;
+}
+.botton{
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 1rem 1rem;
+    margin-top: 2rem;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 10rem;
+}
+.botton-verde{
+    background: rgb(0, 134, 0);
+}
+.botton-naranja{
+    background-color: rgb(255, 145, 0);
+}
+/*footer*/
+.site-footer{
+    background-color: black;
+    margin: 0;
+
+}
+.contenedor-footer{
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+.logo2{
+    height: 3rem;
+    width: 14.7rem;
+}
+.intro2{
+    padding-left: 15rem;
+    margin-top: 0.7rem;
+}
+.limit{
+    margin-top: 1.2rem;  
+    margin-right: 7rem;
+}
+/*nosotros*/
+.imagennosotros{
+    height: 33rem;
+    width:50.5rem;
+}
+.centrado{
+    margin-left: 16rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6rem;
+}
+.taller2{
+   margin-left: 3rem;
+   line-height: 2.7rem; 
+}
+.titulo{
+    max-width: 120rem;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 5rem;
+}
+/*cursos*/
+.unoimg{
+    height: 30rem;
+    width: 25rem;
+}
+.seccion-cursos{
+    display: flex;
+    justify-content: space-between;
+    max-width: 80rem;
+    margin-bottom: 8rem;
+    margin-left: 15rem;
+}
+.items{
+    margin-left: 2rem;
+    margin-top: -2.8rem;
+}
+.items h4{
+    margin-bottom:1rem; 
+}
+.items p{
+    line-height: 2rem;
+}
+.inter{
+    margin-top: 7rem;
+}
+.infiniti{
+    font-size: 1.4rem;
+}
+/*contacto*/
+.ik{
+    margin-left: 13rem;
+}
+form{
+    max-width: 120rem;
+    padding: 1rem;
+    margin: 0 auto;
+    width: 75rem;
+    background-color: #ffffff;
+    margin-top: -15rem;
+    margin-bottom: 12rem;
+}
+input, textarea{
+border: none;
+outline: none;
+}
+.field{
+    border:  solid 1px #000;
+    padding: 0.3rem;
+    width: 70rem;
+}
+.field:focus{
+    border-color: skyblue;
+}
+.new{
+    border:  solid 1px #000;
+    padding: 0.3rem;
+    width: 70rem;
+    height: 15rem;
+    font-family: 'lato' sans-serif;
+    max-width: 70rem;
+    min-height: 10rem;
+    max-height: 20rem;
+    min-width: 70rem;
+}
+.sondo{
+    background: url(../imagenes/contactos.jpg);
+    height: 394px;
+    width: 960px;
+    background-position: center center;
+    margin: 0 auto;
+}
+.boton{
+    margin-left:60rem; 
+    background: green;
+    color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    
+}
+.boton:hover{
+cursor: pointer;
+}
